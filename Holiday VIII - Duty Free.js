@@ -1,4 +1,3 @@
-function dutyFree(normPrice, discount, hol){
-
-    return (Math.floor(hol/(normPrice*discount/100)));
+function makeUpperCase(str) {
+    return str.toUpperCase(); // Code here
 }

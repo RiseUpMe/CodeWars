@@ -1,18 +1,11 @@
-function bmi(weight, height) {
-    let index =  weight / Math.pow(height, 2);
-    if(index <= 18.5)  {
-        return "Underweight";
+function testLogicalOr(val) {
+
+
+    if (val<10 || val>20) {
+        return "Outside";
     }
 
-    else if( (index <= 30.0) && index >25 ){
-        return "Overweight";
-    }
-    else if (index > 30.0 ){
-        return "Obese";
-    }
-
-    else if (index  <= 25.0 ){
-        return "Normal";
-
-    }
+    return "Inside";
 }
+
+testLogicalOr(15);

@@ -1,3 +1,6 @@
-function shortcut (string) {
-    return string.replace (/[a,e,i,o,u]/g, '');
-}
+function removeChar(str){
+    return str.slice(1,-1);
+
+};
+
+

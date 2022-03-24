@@ -1,6 +1,9 @@
-function fakeBin(x){
-    let res = '';
-    for (let i = 0; i < x.length; i++){
-        x[i] < 5 ? res += 0 : res += 1;}
+const reverseSeq = n => {
+    const res = [];
+
+    for(let i = n; i > 0; i -= 1) {
+        res.push(i);
+    }
+
     return res;
-}
+};

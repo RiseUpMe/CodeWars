@@ -1,3 +1,4 @@
-function remove (string) {
-    return string.replace(/!+$/, '');
-  }
+function solution(str){
+    return str.split("").reverse().join("");
+
+}

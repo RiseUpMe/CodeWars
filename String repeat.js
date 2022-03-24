@@ -1,6 +1,18 @@
-function repeatStr (n, s) {
-    let str1 = '';
-    while (n-- > 0) str1 += s;
-    return str1;
-}
+function bmi(weight, height) {
+    let index =  weight / Math.pow(height, 2);
+    if(index <= 18.5)  {
+        return "Underweight";
+    }
 
+    else if( (index <= 30.0) && index >25 ){
+        return "Overweight";
+    }
+    else if (index > 30.0 ){
+        return "Obese";
+    }
+
+    else if (index  <= 25.0 ){
+        return "Normal";
+
+    }
+}
